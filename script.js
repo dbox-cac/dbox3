@@ -15,7 +15,7 @@ function carregarDados() {
         if (data.values) {
           data.values.forEach(row => {
             const div = document.createElement('div');
-            div.innerHTML = `${row[0]}, ${row[1]}`;
+            div.innerHTML = `${row[0]} ${row[1]}`;
             conteudoDiv.appendChild(div);
           });
         } else {
